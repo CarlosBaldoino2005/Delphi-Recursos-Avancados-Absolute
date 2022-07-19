@@ -10,10 +10,8 @@ type
   TForm1 = class(TForm)
     Edit1: TEdit;
     Memo1: TMemo;
-    procedure upper(Sender: TObject);
   private
     { Private declarations }
-
   public
     { Public declarations }
   end;
@@ -24,12 +22,5 @@ var
 implementation
 
 {$R *.dfm}
-
-uses Unit2;
-
-procedure TForm1.upper(Sender: TObject);
-begin
-  TFuncao.Absoluto(Sender);
-end;
 
 end.
